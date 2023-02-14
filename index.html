@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Masuk</title>
+    <link rel="icon" href="1029px-UNIQLO_logo.svg.png">
+    <script src="index.js"></script>
+</head>
+<body>
+    <object id="header" data="https://asset.uniqlo.com/g/icons/header.svg"></object>
+    <br>
+    <br>
+    <div id="line"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="line"></div>
+
+    <div class="totalside">
+        <div class="leftside">
+            <div class="wajibdiisi">
+                <h1 id="masuk">MASUK</h1>
+                 <p>Wajib Diisi *</p>
+            </div>
+            <object data="https://asset.uniqlo.com/g/icons/info.svg" id="icon"></object>
+            <p id="paragraf">Masuk dengan alamat e-mail dan kata sandi Anda.</p>
+            <!-- <p style="color:red; font-size: 18px;">Jangan menggunakan kembali sandi yang telah Anda gunakan di layanan lain atau sandi yang mudah ditebak.</p> -->
+            <h2>ALAMAT EMAIL *</h2>
+            
+            
+            <form method="POST">
+                <div id="email1">
+                    <input type="text" id="email" placeholder="Masukkan Username Anda"> 
+                </div>
+                <!-- <h2>KATA SANDI *</h2>
+                <div id="password1">
+                    <input type="password" id="password"> 
+                </div> -->
+                <p style="font-size: 12px; color:rgb(89, 89, 89)">Kata sandi minimal harus 8 karakter, dan terdiri dari huruf dan angka.</p>
+                <div class="checkbox">
+                    <input type="checkbox" id="check">
+                    <label style="font-size: 16px;">Tunjukkan kata sandi saya</label> 
+                </div>
+                <br>
+                <a href="#" id="underline" >KETENTUAN PENGGUNAAN</a>
+                <br>
+                <div id="space"></div>
+                <a href="#" id="underline">KEBIJAKAN PRIVASI</a>
+                <br><br><br>
+                <button id="btn-left" type="submit" name="submit" onclick="login()">MASUK</button>
+            </form>
+            
+
+            <div id="space"></div>
+            <a href="#" id="underline2">LUPA SANDI ANDA ?</a>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <div id="linehor"></div>
+
+        <div class="rightside">
+            <h1 id="masuk">BUAT AKUN</h1>
+            <p id="paragraf">Jika Anda membuat akun, Anda bisa mendapatkan layanan yang dipersonalisasi seperti melihat riwayat pembelian dan mendapatkan kupon diskon dengan keanggotaan Anda. Daftar hari ini, gratis!</p>
+            <br>
+            <button id="btn-right">BUAT AKUN</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="text-align: center;">HAK CIPTA © UNIQLO CO., LTD. SEMUA HAK DILINDUNGI UNDANG-UNDANG.</p>
+    </div>
+</body>
+</html>

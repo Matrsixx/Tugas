@@ -1,0 +1,147 @@
+*{
+    font-family: 'Helvetica Neue', HelveticaNeue, Helvetica, 'Noto Sans', Roboto, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', Osaka, Meiryo, 'メイリオ', 'MS PGothic', 'ＭＳ Ｐゴシック', 'Hiragino Sans GB', 'Arial Unicode MS', sans-serif;;
+}
+
+#header{
+    margin-top:60px;
+    margin-left:20px;
+    width: 100px;
+}
+
+#line{
+    border-top:1px solid rgb(203, 202, 202);
+    
+}
+
+
+.totalside{
+    border: 1px solid rgb(203, 202, 202);
+    margin: 30px 150px 30px 150px;
+    display: flex;
+}
+
+.leftside{
+    /* float: left; */
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rightside{
+    /* margin-left: 20px;
+    margin-right: 20px */
+    /* float: right; */
+    width: 50%;
+    margin-right: 20px
+
+}
+
+.wajibdiisi{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -60px;
+}
+
+#icon{
+    margin-left: 90%;
+    margin-top: 2%
+}
+
+#masuk{
+    /* font-family: 'UniqloPro Bold', 'Helvetica Neue', HelveticaNeue, Helvetica, 'Noto Sans', Roboto, Arial, 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'Noto Sans CJK JP', Osaka, Meiryo, 'メイリオ', 'MS PGothic', 'MS Pゴシック', 'Hiragino Sans GB', 'Arial Unicode MS', sans-serif; */
+    font-size:40px;
+}
+
+#paragraf{
+    font-size: 18px;
+}
+
+#linehor{
+    border-left: 1px solid rgb(203, 202, 202);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+
+#btn-right{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+}
+
+#email1{
+    margin-top: -5px;
+}
+
+#email{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: unset;
+    padding: 10px 10px 15px 10px;
+    width: 95%;
+}
+
+#password{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: unset;
+    padding: 10px 10px 15px 10px;
+    width: 95%;
+}
+
+#password1{
+    margin-top: -10px;
+}
+
+.checkbox{
+    margin-left: -3px;
+}
+
+#check{
+    width: 16px;
+    height: 16px;
+}
+
+#underline{
+    color: black;
+    font-size: 17px;
+}
+
+#underline:hover{
+    color: rgb(118, 117, 117);
+}
+
+#space{
+    margin-top: 8px;
+}
+
+#btn-left{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 90px 10px 90px;
+    font-size: 20px;
+}
+
+#btn-left:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+#btn-right:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+#underline2{
+    color: black;
+    font-size: 17px;
+}
+
+.footer{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
